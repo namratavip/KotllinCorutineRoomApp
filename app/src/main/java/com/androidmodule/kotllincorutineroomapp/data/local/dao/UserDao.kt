@@ -10,7 +10,7 @@ import com.androidmodule.kotllincorutineroomapp.data.local.entity.User
 interface UserDao{
 
 
-    @Query("SELECT * FROM user")
+    @Query("SELECT * FROM deal")
     suspend fun getAll(): List<User>
 
     @Insert

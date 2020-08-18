@@ -37,4 +37,5 @@ class MainAdapter(private val userList:ArrayList<User>) : RecyclerView.Adapter<M
         userList.addAll(list)
     }
 
+
 }
